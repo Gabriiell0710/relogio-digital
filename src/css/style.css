@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    animation: mudarBackgrond 90s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.7);
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, 0.9);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 10px;
+}
+
+@keyframes mudarBackgrond {
+    0% {
+        background: linear-gradient(120deg, #d9f4fc,#17b7f7);
+    }
+    25%{
+        background: linear-gradient(120deg, #f0b639,#be2612);
+    }
+    50% {
+        background: linear-gradient(120deg, #eefd62d8,#059234);
+    }
+    75%{
+        background: linear-gradient(120deg, #e2d4fad8,#cf86cf);
+    }
+    100%{
+        background: linear-gradient(120deg, #d9f4fc,#17b7f7);
+    }
+}
