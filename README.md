@@ -1,5 +1,5 @@
 # Projeto relógio digital
-Este projeto foi desenvolvido tendo como base o vídeo no youtube de Larissa Kich. Onde aprimorei adicionando transisão de background em um intervalo de tempo.
+Este projeto foi desenvolvido tendo como base o vídeo no youtube de Larissa Kich. Onde aprimorei adicionando transição de background em um intervalo de tempo.
 
 Foi utilizado neste projeto:
 - html
